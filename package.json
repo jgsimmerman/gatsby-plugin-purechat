@@ -1,0 +1,35 @@
+{
+  "name": "@mangoart/gatsby-plugin-purechat",
+  "description": "Adds the PureChat Chat widget to a Gatsby page",
+  "version": "1.0.0",
+  "author": "Markus Oehler <m.oehler@digital-city.solutions>",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/MangoArt/gatsby-plugin-purechat/issues"
+  },
+  "homepage": "https://github.com/MangoArt/gatsby-plugin-purechat",
+  "repository": "github:MangoArt/gatsby-plugin-purechat.git",
+  "scripts": {
+    "build": "babel src --out-dir . --ignore **/__tests__",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir . --ignore **/__tests__"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "purechat"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.0.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "babel-preset-gatsby-package": "^0.1.4",
+    "cross-env": "^5.1.4"
+  }
+}
