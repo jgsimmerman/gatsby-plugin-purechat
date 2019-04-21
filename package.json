@@ -1,7 +1,7 @@
 {
   "name": "@mangoart/gatsby-plugin-purechat",
   "description": "Adds the PureChat Chat widget to a Gatsby page",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Markus Oehler <m.oehler@digital-city.solutions>",
   "main": "index.js",
   "bugs": {
