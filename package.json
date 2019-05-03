@@ -15,6 +15,11 @@
     "watch": "babel -w src --out-dir . --ignore **/__tests__",
     "release": "release-it"
   },
+  "release-it": {
+    "github": {
+      "release": true
+    }
+  },
   "keywords": [
     "gatsby",
     "gatsby-plugin",
