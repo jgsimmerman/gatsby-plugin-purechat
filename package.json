@@ -12,7 +12,8 @@
   "scripts": {
     "build": "babel src --out-dir . --ignore **/__tests__",
     "prepare": "cross-env NODE_ENV=production npm run build",
-    "watch": "babel -w src --out-dir . --ignore **/__tests__"
+    "watch": "babel -w src --out-dir . --ignore **/__tests__",
+    "release": "release-it"
   },
   "keywords": [
     "gatsby",
@@ -44,6 +45,7 @@
     "cross-env": "^5.1.4",
     "husky": "^2.1.0",
     "lint-staged": "^8.1.5",
-    "prettier": "^1.17.0"
+    "prettier": "^1.17.0",
+    "release-it": "^11.0.3"
   }
 }
